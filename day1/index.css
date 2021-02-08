@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    /* overflow: hidden; */
+    min-width: 4.267rem;
+    max-width: 10rem;
+    /* flexible 给我们划分了 10 等份 */
+    width: 10rem;
+    margin: 0 auto;
+    font-family: Arial, Helvetica;
+    background-color: #f9f9f9;
+  }
+  
+  /* 如果我们的屏幕超过了 750px  那么我们就按照 750设计稿来走 不会让我们页面超过750px */
+  
+  @media screen and (min-width: 750px) {
+    html {
+      font-size: 75px !important;
+    }
+  }
+  li{
+      list-style: none;
+  }
+.head{
+    /* display: flex;
+    flex-direction:column; */
+    position: relative;
+    width: 100%;
+    height: 4.08rem;
+    background: url(./images/logo.png);
+}
+.head_top img {
+    width: 100%;
+}
+.head_bootom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0.813rem;
+    top: 1.92rem;
+}
+.head_bootom span{
+    margin-right: 0.467rem;
+}
+.head_bootom .shu{
+    font-size: 0.4rem;
+    color: #ffffff;
+}
+nav{
+    width: 100%;
+    height: 2.787rem;
+}
+nav ul{
+    display: flex;
+  
+}
+nav ul li{
+    flex: 25%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.88rem;
+    margin-top: 0.653rem;
+}
+nav ul li p{
+    color: #7d7d7d;
+    font-size: 0.28rem;
+   margin-top: 0.36rem;
+}
+.exclusive{
+    width: 100%;
+    height: 5.773rem;
+    margin-top: 0.28rem;
+}
+.exclusive h1{
+    height: 0.427rem;
+    padding-left: 0.4rem;
+    padding-top: 0.64rem;
+}
+.exclusive  ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.667rem;
+    margin-left:  0.907rem ;
+    
+    
+   
+}
+.exclusive  ul li{
+     width: 2.067rem;
+    height: 2rem;
+    
+}
+
+.exclusive  ul li p{
+    color: #7d7d7d;
+    margin-left: -0.347rem;
+}
+.serve{
+    width: 100%;
+    height: 3.533rem;
+}
+.serve ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.serve ul li{
+    flex: 50%;
+}
+.base{
+    width: 100%;
+    height: 1.347rem;
+}
+.base ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.base ul li{
+    flex: 25%;
+    margin-left: 1.08rem;
+}
+.base ul li p{
+    font-size: 0.267rem;
+}
+li img{
+    width: 100%;
+}
+.chengse{
+    color: #ff7200;
+}
